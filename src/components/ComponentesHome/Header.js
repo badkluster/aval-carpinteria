@@ -3,12 +3,13 @@ import { motion } from "framer-motion";
 import "./Header.css";
 import { CircularProgress } from "@mui/material";
 import { ArrowBackIos, ArrowForwardIos } from "@mui/icons-material";
+import { useNavigate } from "react-router-dom";
 
 export default function Header({ slides }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isImagesLoaded, setIsImagesLoaded] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
-
+  const navigate = useNavigate();
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 768);
@@ -141,7 +142,7 @@ export default function Header({ slides }) {
         {currentSlide.link && (
           <button
             className="cta-button"
-            onClick={() => (window.location.href = currentSlide.link)}
+            onClick={() => navigate(currentSlide.link)}
           >
             {currentSlide.linkTitle || "Ver más"}
           </button>
