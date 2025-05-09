@@ -95,52 +95,6 @@ export default function ProductDetail() {
   const listPrice = product.price;
   const discountedPrice = listPrice - (listPrice * discount) / 100;
 
-  // Información de las medidas (usando measurement)
-  const sizeInfo = `${product.measurement?.ancho}x${product.measurement?.largo}x${product.measurement?.alto} cm`;
-
-  // Productos similares (en un ejemplo real, se podrían obtener desde el API)
-  //   const similarProducts = [
-  //     {
-  //       name: "Sommier King Plus",
-  //       price: 1599000,
-  //       image:
-  //         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf1Xd7PPf5VNYc1O9uN3897U4rvlPflehYBsmiCKvwD4N3vSaFdCHHGXSDmp5XuUx8MRs&usqp=CAU",
-  //     },
-  //     {
-  //       name: "Colchón Sealy Confort",
-  //       price: 1220000,
-  //       image:
-  //         "https://simmonsarg.vtexassets.com/arquivos/ids/162672-800-auto?v=638616603889970000&width=800&height=auto&aspect=true",
-  //     },
-  //     {
-  //       name: "Sommier y Colchón Relax",
-  //       price: 1999000,
-  //       image:
-  //         "https://laespumeria.vtexassets.com/arquivos/ids/165898-800-auto?v=638440382669430000&width=800&height=auto&aspect=true",
-  //     },
-  //     {
-  //       name: "Colchón Spring Air Balance",
-  //       price: 980000,
-  //       image:
-  //         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHspBAoqav1u6P19-_x_5JBQ8lLQnosnlpMw&s",
-  //     },
-  //     {
-  //       name: "Colchón Sealy Confort",
-  //       price: 1220000,
-  //       image: "https://sommiercenter.com/media/catalog/product/example2.jpg",
-  //     },
-  //     {
-  //       name: "Sommier y Colchón Relax",
-  //       price: 1999000,
-  //       image: "https://sommiercenter.com/media/catalog/product/example3.jpg",
-  //     },
-  //     {
-  //       name: "Colchón Spring Air Balance",
-  //       price: 980000,
-  //       image: "https://sommiercenter.com/media/catalog/product/example4.jpg",
-  //     },
-  //   ];
-
   const scrollLeft = () => {
     if (similarContainerRef.current) {
       similarContainerRef.current.scrollBy({ left: -300, behavior: "smooth" });
