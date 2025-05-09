@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/aval-carpinteria/static/css/main.3ce514ca.css",
+    "main.js": "/aval-carpinteria/static/js/main.b6f643e5.js",
+    "static/js/453.223ee0d3.chunk.js": "/aval-carpinteria/static/js/453.223ee0d3.chunk.js",
+    "static/media/auth-bg.jpg": "/aval-carpinteria/static/media/auth-bg.5b2cd4909a1e7a165ce8.jpg",
+    "static/media/Quentin.otf": "/aval-carpinteria/static/media/Quentin.d23f14229019500f4959.otf",
+    "static/media/Quentin.woff": "/aval-carpinteria/static/media/Quentin.745da50f3c2f8219e254.woff",
+    "static/media/carpintero.gif": "/aval-carpinteria/static/media/carpintero.4f05ffb56d24520e432b.gif",
+    "static/media/Quentin.woff2": "/aval-carpinteria/static/media/Quentin.aa2e9c50e576ac5a1a49.woff2",
+    "static/media/mastercard.png": "/aval-carpinteria/static/media/mastercard.4e7c08893d03622e9d60.png",
+    "static/media/logoAval-sinfondo.png": "/aval-carpinteria/static/media/logoAval-sinfondo.ff553201f7d229ef5429.png",
+    "static/media/nativa.png": "/aval-carpinteria/static/media/nativa.2a755648fb13e6485a27.png",
+    "static/media/error404.png": "/aval-carpinteria/static/media/error404.5b0f2665a74973d9b6c6.png",
+    "static/media/fondoMadera.jpg": "/aval-carpinteria/static/media/fondoMadera.c11c155189f796e27296.jpg",
+    "static/media/argencard.png": "/aval-carpinteria/static/media/argencard.45035d45d7c2e3dc79df.png",
+    "static/media/amex.svg": "/aval-carpinteria/static/media/amex.588716579b1c85c8e140c525622b36bc.svg",
+    "static/media/visa.svg": "/aval-carpinteria/static/media/visa.e18399abca03e766f184932a7fadf72a.svg",
+    "static/media/slick.svg": "/aval-carpinteria/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/aval-carpinteria/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/aval-carpinteria/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/link.svg": "/aval-carpinteria/static/media/link.df485729887225537b79ad4cc065fd61.svg",
+    "static/media/slick.woff": "/aval-carpinteria/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/aval-carpinteria/index.html",
+    "main.3ce514ca.css.map": "/aval-carpinteria/static/css/main.3ce514ca.css.map",
+    "main.b6f643e5.js.map": "/aval-carpinteria/static/js/main.b6f643e5.js.map",
+    "453.223ee0d3.chunk.js.map": "/aval-carpinteria/static/js/453.223ee0d3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ce514ca.css",
+    "static/js/main.b6f643e5.js"
+  ]
+}
