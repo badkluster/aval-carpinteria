@@ -1,0 +1,13 @@
+.users-page {
+  // padding: 2rem;
+  &__add {
+    // position: absolute;
+    // right: 0;
+
+    // top: 10;
+
+    > .ui.button {
+      margin: 0;
+    }
+  }
+}

@@ -1,0 +1,202 @@
+/* General Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: rgb(255, 255, 255, 0.8);
+  color: black;
+  position: absolute;
+  width: 100%;
+  max-width: 100vw;
+  top: 0;
+  z-index: 1000;
+  opacity: 0.9;
+  box-sizing: border-box;
+}
+
+.logo img {
+  max-height: 3rem;
+  width: auto !important;
+  transition: transform 0.3s ease;
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  position: relative;
+}
+
+.nav-links li {
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+}
+
+.nav-links li a {
+  color: #8b5e3c;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  padding: 5px 0;
+  font-size: x-large;
+  /* text-transform: uppercase; */
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+}
+
+.nav-links li span {
+  color: #8b5e3c;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  padding: 5px 0;
+  font-size: x-large;
+  /* text-transform: uppercase; */
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+}
+.nav-links li a:hover {
+  color: #8b5e3c;
+}
+.nav-links li a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #8b5e3c;
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-links li a:hover::after {
+  width: 100%;
+}
+
+/* Submenu Styling */
+.nav-links li ul.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #444;
+  border-radius: 5px;
+  list-style: none;
+  padding: 15px 0;
+  z-index: 10;
+  width: 200px;
+  /* margin-top: 0.5rem; */
+}
+
+.nav-links li:hover ul.submenu {
+  display: block;
+}
+
+.nav-links li ul.submenu li span {
+  padding: 10px 15px;
+  color: #fff !important;
+}
+
+.nav-links li ul.submenu li span:hover {
+  color: rgb(229 214 138) !important;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.social-icons a {
+  color: #8b5e3c;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #8b5e3c;
+}
+
+/* Hamburger Menu */
+.hamburger-menu {
+  display: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #3333;
+}
+
+.social-icons-humburguer {
+  display: none;
+}
+
+@media (min-width: 769px) {
+  .iconsMenuSmall {
+    display: none; /* Ocultamos los iconos en pantallas más grandes que 768px */
+  }
+}
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .logo img {
+    width: 150px !important;
+  }
+
+  .social-icons-humburguer {
+    display: flex !important;
+    justify-content: space-evenly;
+  }
+
+  .social-icons {
+    display: none;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 45px;
+    right: 0;
+    background-color: #bbbbbb;
+    width: 100%;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links li {
+    margin: 5px 0;
+    text-align: center;
+  }
+
+  .nav-links li ul.submenu {
+    position: static;
+    padding-left: 20px;
+    width: 100%;
+    box-shadow: none;
+  }
+
+  .navbar {
+    padding: 15px 20px; /* Ajustar el padding si es necesario */
+  }
+
+  .redesSociales {
+    display: block;
+    margin-top: 15px;
+    padding-left: 15px; /* Espaciado a la izquierda */
+  }
+
+  .hamburger-menu {
+    display: block;
+    color: #8b5e3c;
+    /* margin-right: 2rem; */
+  }
+}

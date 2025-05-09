@@ -1,0 +1,24 @@
+.item-container .label, .template-product .label {
+    background-color: #e4807f;
+    font-weight: 700;
+    font-size: 14px;
+}
+.label-text {
+    display: table-cell;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: initial;
+}
+.label-circle {
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    display: flex
+;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,71 @@
+{
+  "name": "avalcarpinteria",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://TU_USUARIO.github.io/TU_REPO",
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@material-table/exporters": "^1.2.19",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/lab": "^5.0.0-alpha.135",
+    "@mui/material": "^5.13.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@tinymce/tinymce-react": "^4.2.0",
+    "antd": "^5.16.1",
+    "array-move": "^4.0.0",
+    "axios": "^1.7.8",
+    "formik": "^2.2.9",
+    "framer-motion": "^11.11.17",
+    "jwt-decode": "^3.1.2",
+    "luxon": "^3.0.4",
+    "moment": "^2.30.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.2",
+    "react-loader-spinner": "^6.1.6",
+    "react-photo-gallery": "^8.0.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.4.1",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.30.3",
+    "react-sortable-hoc": "^2.0.0",
+    "sass": "^1.55.0",
+    "slick-carousel": "^1.8.1",
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}

@@ -1,0 +1,95 @@
+/* AlquilerSection.css */
+
+.categorias-section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.categorias-section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: rgb(53, 46, 133, 08);
+  /* text-transform: uppercase; */
+}
+
+.categorias-section-cards-container {
+  display: flex; /* Usamos flexbox */
+  flex-wrap: wrap; /* Permitir que las tarjetas se ajusten automáticamente */
+  justify-content: space-between; /* Distribuir tarjetas uniformemente */
+  gap: 0.5rem; /* Espaciado entre las tarjetas */
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 0.2rem; /* Espaciado lateral del contenedor */
+}
+
+.categorias-section-card {
+  flex: 1 1 18%; /* Cards más flexibles, ajustándose a 5 por fila */
+  cursor: pointer;
+  max-width: 17%; /* Asegurar que no se desborden */
+  min-width: 200px; /* Evitar que sean demasiado pequeños en pantallas más grandes */
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Para alinear correctamente los textos */
+  min-height: 360px; /* altura mínima uniforme */
+  display: flex;
+  flex-direction: column;
+}
+
+.categorias-section-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.categorias-section-card-image {
+  width: 100%;
+  height: 200px; /* espacio reservado igual para todas */
+  object-fit: cover; /* recorta y llena el espacio sin deformar */
+  object-position: center; /* centra la parte más interesante */
+  border-radius: 4px; /* ligero redondeo interno */
+  margin-bottom: 1rem;
+}
+
+.categorias-section-card-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: rgb(53, 46, 133, 08);
+  text-align: center; /* Alinear texto */
+  margin-top: auto; /* Mantener el texto siempre al final si la imagen es alta */
+}
+
+/* Responsivo */
+@media (max-width: 1200px) {
+  .categorias-section-card {
+    flex: 1 1 calc(20% - 1rem); /* Mantener 5 columnas en pantallas grandes */
+    max-width: calc(20% - 1rem);
+  }
+}
+
+@media (max-width: 992px) {
+  .categorias-section-card {
+    flex: 1 1 calc(25% - 1rem); /* Cuatro columnas en pantallas medianas */
+    max-width: calc(25% - 1rem);
+  }
+}
+
+@media (max-width: 768px) {
+  .categorias-section-card {
+    flex: 1 1 calc(33.333% - 1rem); /* Tres columnas en pantallas pequeñas */
+    max-width: calc(33.333% - 1rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .categorias-section-card {
+    flex: 1 1 100%; /* Una columna en pantallas móviles */
+    max-width: 100%;
+  }
+}

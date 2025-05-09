@@ -1,0 +1,21 @@
+@import "~/src/scss/index.scss";
+
+.user-form {
+  &__avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    > .ui.image {
+      border: 2px dashed $primary;
+      margin: 0;
+      padding: 5px;
+      cursor: pointer;
+      width: 150px; /* Ajusta el ancho según sea necesario */
+      height: 150px; /* Ajusta la altura según sea necesario */
+      border-radius: 50%; /* Hace que la imagen sea un círculo */
+      object-fit: cover; /* Ajusta la imagen dentro del contenedor sin distorsión */
+    }
+  }
+}

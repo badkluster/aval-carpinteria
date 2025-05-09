@@ -1,0 +1,66 @@
+/* Testimonios.css */
+.testimonio-container {
+  padding: 5rem 2rem;
+  background-color: #1e1e1e;
+}
+
+.testimonio-card {
+  padding: 3rem;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  position: relative;
+  text-align: center;
+}
+
+.testimonio-quote {
+  font-style: italic;
+  color: #555;
+  /* font-weight: lighter; */
+  margin-bottom: 1rem;
+}
+
+.testimonio-author {
+  font-weight: bold;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  margin-top: 1rem;
+}
+
+.testimonio-date {
+  font-size: 0.9rem;
+  color: #777;
+  /* font-weight: lighter; */
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+button {
+  text-transform: none;
+  border-radius: 25px;
+  padding: 0.7rem 1.5rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+  border-color: #8b5e3c;
+  color: #8b5e3c;
+}
+
+button:hover {
+  border-color: #8b5e3c;
+  color: #8b5e3c;
+}
+
+@media (max-width: 600px) {
+  .testimonio-container {
+    padding: 3rem 1rem;
+  }
+
+  .testimonio-card {
+    padding: 2rem;
+  }
+}

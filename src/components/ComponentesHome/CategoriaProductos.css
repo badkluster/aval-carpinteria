@@ -1,0 +1,91 @@
+.categoria-productos {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-grow: 1; /* Asegura que ocupa el espacio restante */
+  display: flex;
+  flex-direction: column;
+  margin-top: 7rem;
+}
+
+.categoria-titulo {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.productos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+
+  height: 100%;
+}
+
+.producto-card {
+  cursor: pointer;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-width: 280px; /* Añadir un tamaño mínimo */
+  max-width: 350px; /* Añadir un tamaño máximo */
+  height: 100%; /* Garantizar que las tarjetas no se expandan verticalmente más de lo necesario */
+}
+
+.producto-card:hover {
+  transform: translateY(-5px) scale(1.05); /* Aumenta el tamaño en el hover */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+}
+
+.producto-imagen {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.3s ease; /* Añadir transición para la imagen */
+}
+
+.producto-card:hover .producto-imagen {
+  transform: scale(1.1); /* Hace zoom a la imagen en hover */
+}
+
+.producto-imagen {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.producto-info {
+  padding: 15px;
+  text-align: center;
+}
+
+.producto-nombre {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.producto-acciones {
+  margin-top: 15px;
+}
+
+.btn-descargar {
+  background: #007bff;
+}
+
+.btn-descargar:hover {
+  background: #0056b3;
+}
+
+.btn-whatsapp:hover {
+  color: #3dbe6a;
+}
+
+.no-productos,
+.loading {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #555;
+}

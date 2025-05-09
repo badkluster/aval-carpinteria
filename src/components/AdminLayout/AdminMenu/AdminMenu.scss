@@ -1,0 +1,113 @@
+@import "~/src/scss/index.scss";
+
+.menu-text {
+  margin: 0px;
+}
+
+.ant-menu-submenu-popup {
+  background-color: $background-primary !important; // Fondo del submenú desplegado
+  border-radius: 8px; // Bordes redondeados (opcional)
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); // Sombra (opcional)
+  padding: 10px; // Espaciado interno (opcional)
+}
+
+// Ajustes al texto o íconos del submenú
+.ant-menu-submenu-popup .ant-menu-item {
+  color: #000 !important; // Texto no seleccionado
+}
+
+// Cambiar color en hover
+.ant-menu-submenu-popup .ant-menu-item:hover {
+  background-color: $background-primary !important; // Fondo en hover
+  color: #fff !important; // Texto en hover
+}
+
+// Estilo para el ítem seleccionado
+.ant-menu-submenu-popup .ant-menu-item-selected {
+  background-color: $background-primary !important; // Fondo azul (o el color deseado)
+  color: #fff !important; // Texto blanco
+  font-weight: bold; // Opcional: texto en negrita
+  border-radius: 4px; // Opcional: bordes redondeados al ítem seleccionado
+}
+
+.nav-text-hidden {
+  padding-left: 1.8rem;
+}
+
+.nav-text {
+  padding-left: 0.5rem;
+  color: #fff !important;
+}
+.admin-sider {
+  position: fixed;
+  left: 0;
+  top: 60px;
+  height: 90vh;
+  overflow: auto;
+  background: $background-grey-dark !important;
+  padding-top: 20px;
+  height: 100vh;
+  height: auto;
+  z-index: 100;
+}
+
+.menu {
+  background-color: transparent;
+  color: #fff !important;
+  font-weight: bold;
+  height: 100vh;
+}
+
+.ant-menu-item {
+  color: #fff !important;
+}
+
+.ant-menu .ant-menu-item-selected {
+  background-color: #322b81;
+}
+
+.admin-sider {
+  background: #001529; // Asegura que el fondo sea oscuro
+}
+
+.menu {
+  .ant-menu-item,
+  .ant-menu-submenu-title {
+    color: white !important;
+  }
+}
+
+:where(.css-dev-only-do-not-override-1kuana8).ant-menu-light
+  .ant-menu-item-selected,
+:where(.css-dev-only-do-not-override-1kuana8).ant-menu-light
+  > .ant-menu
+  .ant-menu-item-selected {
+  background-color: $background-primary !important;
+  color: #fff !important;
+}
+
+.ant-menu-item .ant-menu-item-selected {
+  background-color: $background-primary !important;
+  color: #fff !important;
+}
+
+.ant-menu-item-selected {
+  background-color: $background-primary !important;
+  color: #fff !important;
+}
+
+.ant-menu-submenu .ant-menu-submenu-inline .ant-menu-submenu-open {
+  color: #fff !important;
+}
+
+.ant-menu-submenu {
+  color: #fff !important;
+}
+
+.ant-menu-submenu-inline {
+  color: #fff !important;
+}
+
+.ant-menu-submenu-title {
+  color: #fff !important;
+}

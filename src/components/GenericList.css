@@ -1,0 +1,9 @@
+.genericTable {
+  font-size: 12px;
+}
+
+.listContainer {
+  margin: 0.2rem;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}

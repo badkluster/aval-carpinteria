@@ -1,0 +1,72 @@
+/* Contenedor para los botones flotantes */
+.floating-buttons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra verticalmente los botones en el contenedor */
+  gap: 15px;
+  z-index: 1000;
+}
+
+/* Botón para ir arriba: diseño cuadrado con bordes redondeados */
+.to-top-button {
+  background-color: transparent;
+  color: #653a19; /* Color del ícono y borde */
+  border: 3px solid #653a19; /* Borde dorado */
+  width: 60px; /* Tamaño del botón */
+  height: 60px;
+  border-radius: 50%; /* Hacer el botón completamente redondo */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centra el ícono dentro del botón */
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease, transform 0.3s ease-in-out,
+    color 0.3s ease;
+}
+
+.to-top-button:hover {
+  background-color: #8b5e3c; /* Fondo con un poco de opacidad */
+  transform: scale(1.1); /* Efecto de escala */
+  color: #fff; /* Cambiar color del ícono */
+  border-color: #8b5e3c; /* Cambiar color del borde */
+}
+
+/* Botón de WhatsApp: diseño completamente redondo */
+.whatsapp-button {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centra el ícono dentro del botón */
+  background-color: #25d366;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease, transform 0.3s ease-in-out;
+}
+
+.whatsapp-button:hover {
+  background-color: #1da851;
+  transform: scale(1.1);
+}
+
+/* Responsividad para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .floating-buttons {
+    bottom: 15px;
+    right: 15px;
+  }
+  .to-top-button {
+    width: 50px;
+    height: 50px;
+  }
+
+  .whatsapp-button {
+    width: 45px;
+    height: 45px;
+  }
+}

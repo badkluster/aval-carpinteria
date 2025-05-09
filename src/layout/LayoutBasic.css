@@ -1,0 +1,24 @@
+.layout-basic {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.layout-basic__header {
+  /* background-color: #001529; */
+  /* padding: 1rem; */
+  color: white;
+}
+
+.layout-basic__content {
+  flex-grow: 1;
+  /* padding: 2rem; */
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.layout-basic__footer {
+  /* padding: 1rem; */
+  text-align: center;
+  color: white;
+}

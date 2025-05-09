@@ -1,0 +1,11 @@
+.containerInferiorEditPerfil {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 768px) {
+  .containerInferiorEditPerfil {
+    display: flex;
+    flex-direction: column;
+  }
+}

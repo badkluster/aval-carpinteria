@@ -1,0 +1,47 @@
+.card-container {
+  display: flex;
+  flex-direction: row; /* Mantiene la imagen y el texto en línea */
+  align-items: center;
+}
+
+.image-container {
+  flex: 1; /* Hace que la imagen tome la mitad del espacio */
+}
+
+.text-container {
+  flex: 1; /* Asegura que el texto tenga su propio espacio */
+  padding: 20px;
+}
+.sucursales-section-title{
+  margin-top: 25px;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: bold;
+  color: #2e2e87;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+  }
+
+  .telContact {
+    justify-content: center !important;
+    text-align: center;
+  }
+
+  .image-container,
+  .text-container {
+    width: 100%;
+  }
+}
+
+.text-container {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+  color: white;
+  padding: 10px;
+}

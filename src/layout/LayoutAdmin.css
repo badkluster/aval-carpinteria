@@ -1,0 +1,53 @@
+.layoutContainer{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.layout-admin {
+    transition: margin-left 0.2s;
+   
+   
+  
+}
+  
+.layout-admin__header {
+      position: fixed;
+      top: 0;
+      left: 0!important;
+      width: 100%;
+      display: flex;
+      padding: 0;
+      height: 70px!important;
+      z-index: 1000;
+      background-color: #fff!important;
+    }
+
+    :where(.css-dev-only-do-not-override-ixblex).ant-layout .ant-layout-header {
+        padding-inline: 1px!important;
+    }
+
+   .ant-layout .ant-layout-header {
+      padding-inline: 1px!important;
+  }
+  
+    .layout-admin__content {
+      /* min-height: calc(100vh - 65px); */
+      padding: 70px 0px 0px 0px;
+      min-height: 100vh;
+      /* height: 100%!important; */
+      /* background-color: #fff; */
+      /* border-left: .5px solid #ccc; */
+      /* margin: 20px; */
+      /* position: relative; */
+    }
+
+    .siderMenu .ant-layout-sider .ant-layout-sider-dark .ant-layout-sider-collapsed .admin-sider{
+        flex: 0 0 50px !important;
+        max-width: 50px !important;
+        min-width: 50px !important;
+        width: 50px !important;
+
+      }
+

@@ -1,0 +1,50 @@
+.menu-top {
+  display: flex!important;
+  width: 100%;
+  justify-content: space-between!important;
+  align-items: center ;
+  overflow: hidden;
+
+}
+  .menu-top Button {
+      color: black;
+      background-color: transparent;
+      border: none;
+    
+      
+    }
+    .menu-top Button:hover {
+        color: #142850;
+        border: none;
+        background-color: transparent;
+      }
+      .menu-top Button :focus,
+      .menu-top Button:active {
+        color: #fff;
+      }
+    
+  
+
+        .menu-top__left-logo {
+        /* width: 200px; */
+        max-width: 100%;
+        padding: 0 0px;
+        /* height: 75px; */
+        cursor: pointer;
+        padding-left: 1rem;
+      }
+    
+  
+      .menu-top__rigth {
+      /* position: absolute;
+      right: 30; */
+    }
+  
+    @media (max-width: 768px) {
+      .menu-top {
+        width: auto;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+      }
+    }

@@ -1,0 +1,28 @@
+.ButtonComponentStyle {
+  border: 1px solid #dae1e7;
+  border-radius: 8px;
+  color: #fff;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 125px; */
+  min-width: 140px;
+  max-width: 150px;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.ButtonComponentStyle:hover {
+  border-color: #fff !important;
+}
+
+.ant-modal-confirm-btns {
+  display: flex;
+  flex-direction: row-reverse !important;
+  justify-content: space-around;
+}
