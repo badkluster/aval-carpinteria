@@ -126,7 +126,7 @@ const Footer = ({ enterprise }) => {
             <IconButton
               href={
                 enterprise?.tiktok
-                  ? `https://www.tiktok.com/@${enterprise.tiktok}`
+                  ? `https://www.tiktok.com/${enterprise.tiktok}`
                   : "https://www.tiktok.com/@aval.lp"
               }
               target="_blank"

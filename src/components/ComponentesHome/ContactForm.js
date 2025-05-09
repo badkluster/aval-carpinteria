@@ -209,7 +209,7 @@ const ConctactForm = ({ enterprise }) => {
                       <a
                         href={
                           enterprise?.tiktok
-                            ? `https://www.tiktok.com/@${enterprise.tiktok}`
+                            ? `https://www.tiktok.com/${enterprise.tiktok}`
                             : "https://www.tiktok.com/@aval.lp"
                         }
                         target="_blank"
