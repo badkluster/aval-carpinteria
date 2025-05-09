@@ -1,15 +1,12 @@
 import React from "react";
-import { Grid, IconButton, useMediaQuery, useTheme } from "@mui/material";
+import { Grid, IconButton } from "@mui/material";
 import { Facebook, Instagram, WhatsApp } from "@mui/icons-material";
 import "./Footer.css";
-import LogoBlanco from "../../assets/logoAval-sinfondo.png";
+
 import { Link } from "react-router-dom";
 import { TikTokOutlined } from "@ant-design/icons";
 
 const Footer = ({ enterprise }) => {
-  const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
-
   function formatPhoneNumber(phone) {
     return phone.replace(/\D/g, "");
   }

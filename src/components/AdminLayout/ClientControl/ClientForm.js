@@ -6,7 +6,6 @@ import {
   Typography,
   Paper,
   Grid,
-  Switch,
   CircularProgress,
 } from "@mui/material";
 import { notification } from "antd";
@@ -49,10 +48,6 @@ const ClientForm = ({ id, onClose, refresh }) => {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
-  };
-
-  const handleActiveChange = (e) => {
-    setFormData((prev) => ({ ...prev, active: e.target.checked }));
   };
 
   const handleSubmit = async (e) => {

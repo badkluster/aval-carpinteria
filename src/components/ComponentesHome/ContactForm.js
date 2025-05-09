@@ -1,11 +1,11 @@
 import React from "react";
-import { Grid, Typography } from "@mui/material";
+import { Grid } from "@mui/material";
 import { motion } from "framer-motion";
 import useInView from "../../hooks/useInView";
 
 import { Facebook, Instagram, WhatsApp } from "@mui/icons-material";
 import { TikTokOutlined } from "@ant-design/icons";
-import LocalPhoneOutlinedIcon from "@mui/icons-material/LocalPhoneOutlined";
+
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
 import PlaceOutlinedIcon from "@mui/icons-material/PlaceOutlined";

@@ -2,7 +2,7 @@ import React from "react";
 import { useDropzone } from "react-dropzone";
 import { Box, Typography, IconButton, Tooltip } from "@mui/material";
 import DeleteIcon from "@mui/icons-material/Delete";
-import { Image } from "antd";
+
 import DescriptionIcon from "@mui/icons-material/Description";
 import { sortableContainer, sortableElement } from "react-sortable-hoc";
 import { arrayMoveImmutable } from "array-move";

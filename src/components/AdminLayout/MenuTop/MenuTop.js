@@ -34,9 +34,9 @@ export function MenuTop(props) {
     const result = await logout();
 
     if (result === true) {
-      window.location.href = "/";
+      window.location.href = "/aval-carpinteria/";
     } else {
-      window.location.href = "/";
+      window.location.href = "/aval-carpinteria/";
     }
   };
 

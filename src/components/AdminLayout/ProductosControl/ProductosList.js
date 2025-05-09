@@ -39,9 +39,6 @@ const ProductList = ({ onEdit, refresh }) => {
   // Estados para filtros seleccionados (almacenamos el objeto completo)
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState(null);
-  const [selectedBrand, setSelectedBrand] = useState(null);
-  const [selectedSize, setSelectedSize] = useState(null);
-  const [selectedMedidas, setSelectedMedidas] = useState(null);
 
   const [orderBy, setOrderBy] = useState(null);
   const [orderDirection, setOrderDirection] = useState("asc");
@@ -130,15 +127,7 @@ const ProductList = ({ onEdit, refresh }) => {
     if (selectedCategory) {
       filters.category = selectedCategory._id;
     }
-    if (selectedBrand) {
-      filters.brand = selectedBrand._id;
-    }
-    if (selectedSize) {
-      filters.size = selectedSize._id;
-    }
-    if (selectedMedidas) {
-      filters.measurement = selectedMedidas._id;
-    }
+
     return filters;
   };
 

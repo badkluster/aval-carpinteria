@@ -1,9 +1,8 @@
 import React from "react";
-import { motion } from "framer-motion";
 
 import "./CategoriasSection.css";
 import useInView from "../../hooks/useInView";
-import { WHATSAPP_NUMBER } from "../../utils";
+
 import { useNavigate } from "react-router-dom";
 
 const CategoriaSection = ({
@@ -59,9 +58,5 @@ const CategoryCard = ({ category, onClick }) => {
     </div>
   );
 };
-
-function formatPhoneNumber(phone) {
-  return phone.replace(/\D/g, ""); // Elimina todos los caracteres que no sean números
-}
 
 export default CategoriaSection;

@@ -55,12 +55,6 @@ const TestimoniosForm = ({ id, onClose, refresh }) => {
   };
 
   // Para el RadioGroup, se convierte el valor string a booleano
-  const handleActiveChange = (e) => {
-    setFormData((prev) => ({
-      ...prev,
-      active: e.target.value === "true",
-    }));
-  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();

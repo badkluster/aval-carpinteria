@@ -91,20 +91,6 @@ export function Home() {
             linkTitle: "Catálogo",
             detail: "Utilizamos la mejor materia prima",
           },
-          {
-            _id: "67a3b1b3d7e26016726466ef",
-            image:
-              "https://s3.us-east-1.amazonaws.com/sommier.home/uploads/utlm64ow-Dise%C3%B1o%20sin%20t%C3%ADtulosdd.png",
-            title: "ERGONOMÍA",
-            active: true,
-            created: "2025-02-05T18:45:07.823Z",
-            createdBy: "66951637af273c7ee46d636d",
-            __v: 0,
-            modified: "2025-02-18T12:54:19.763Z",
-            modifiedBy: "66951637af273c7ee46d636d",
-            description: "",
-            detail: "Soporte perfecto para tu cuerpo en cada posición",
-          },
         ]);
 
         setCategories([]);

@@ -4,13 +4,12 @@ import { Layout, Menu } from "antd";
 import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import EditOutlinedIcon from "@mui/icons-material/EditOutlined";
 import ViewCarouselIcon from "@mui/icons-material/ViewCarousel";
-import BedOutlinedIcon from "@mui/icons-material/BedOutlined";
+
 import AutoAwesomeMosaicOutlinedIcon from "@mui/icons-material/AutoAwesomeMosaicOutlined";
-import VerifiedOutlinedIcon from "@mui/icons-material/VerifiedOutlined";
+
 import ChatOutlinedIcon from "@mui/icons-material/ChatOutlined";
 import Groups2OutlinedIcon from "@mui/icons-material/Groups2Outlined";
-import KingBedOutlinedIcon from "@mui/icons-material/KingBedOutlined";
-import StraightenOutlinedIcon from "@mui/icons-material/StraightenOutlined";
+
 import ConstructionOutlinedIcon from "@mui/icons-material/ConstructionOutlined";
 import "./AdminMenu.scss";
 

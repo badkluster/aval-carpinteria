@@ -1,5 +1,6 @@
 import React from "react";
-import { BrowserRouter } from "react-router-dom";
+// import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import { WebRouter } from "./router";
 import { AuthProvider } from "./contexts";
 import { MyReloadContextProvider } from "./contexts/reloadRequest";
@@ -12,9 +13,9 @@ export default function App() {
     <AuthProvider>
       <CartProvider>
         <MyReloadContextProvider>
-          <BrowserRouter>
+          <HashRouter>
             <WebRouter />
-          </BrowserRouter>
+          </HashRouter>
         </MyReloadContextProvider>
       </CartProvider>
     </AuthProvider>

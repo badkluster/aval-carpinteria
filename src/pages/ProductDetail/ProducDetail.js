@@ -113,12 +113,6 @@ export default function ProductDetail() {
     });
   };
 
-  const handleBrandClick = () => {
-    navigate(`/catalogo?brandId=${product.brand?._id}`, {
-      state: { brandId: product.brand?._id },
-    });
-  };
-
   //   const handleBuy = () => {
   //     const productDetails = `Producto: ${product.name}
   // SKU: ${product.sku}
@@ -141,7 +135,7 @@ export default function ProductDetail() {
     const precioFinal = (precioBase - (precioBase * descuento) / 100).toFixed(
       2
     );
-    const productUrl = `https://sommierhome.com.ar/producto/${product._id}`;
+    const productUrl = `https://badkluster.github.io/producto/${product._id}`;
     const mensaje = `Hola! Quiero comprar\n\n*${product.name}*\n*Precio:* $${precioFinal}\n*URL:* ${productUrl}\n\nGracias!`;
     const encodedMessage = encodeURIComponent(mensaje);
     const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodedMessage}`;

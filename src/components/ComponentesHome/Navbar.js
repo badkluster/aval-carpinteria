@@ -37,7 +37,7 @@ const Navbar = ({ categories, enterprise }) => {
         element.scrollIntoView({ behavior: "smooth" });
       } else {
         // Si no encuentra el elemento, intenta usar el hash directamente
-        window.location.hash = section;
+        window.location.hash = `#/#${section}`;
       }
     }, 100); // Delay para esperar el renderizado si hace falta
   };
@@ -104,7 +104,7 @@ const Navbar = ({ categories, enterprise }) => {
             <span>Productos</span>
             <ul className={`submenu ${alquilerMenuActive ? "active" : ""}`}>
               <li onClick={() => handlePageNavLinkClick("catalogo")}>
-                <span>Todos</span>
+                <span>Todas</span>
               </li>
               {categories.map((c) => (
                 <li key={c._id} onClick={() => handleCategoryClick(c)}>
