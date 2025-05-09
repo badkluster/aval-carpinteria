@@ -2,7 +2,7 @@
   "name": "avalcarpinteria",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://TU_USUARIO.github.io/TU_REPO",
+  "homepage": "https://badkluster.github.io/aval-carpinteria",
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
