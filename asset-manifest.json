@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aval-carpinteria/static/css/main.3ce514ca.css",
-    "main.js": "/aval-carpinteria/static/js/main.16b72350.js",
+    "main.js": "/aval-carpinteria/static/js/main.78b2f303.js",
     "static/js/453.223ee0d3.chunk.js": "/aval-carpinteria/static/js/453.223ee0d3.chunk.js",
     "static/media/auth-bg.jpg": "/aval-carpinteria/static/media/auth-bg.5b2cd4909a1e7a165ce8.jpg",
     "static/media/Quentin.otf": "/aval-carpinteria/static/media/Quentin.d23f14229019500f4959.otf",
@@ -22,11 +22,11 @@
     "static/media/slick.woff": "/aval-carpinteria/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/aval-carpinteria/index.html",
     "main.3ce514ca.css.map": "/aval-carpinteria/static/css/main.3ce514ca.css.map",
-    "main.16b72350.js.map": "/aval-carpinteria/static/js/main.16b72350.js.map",
+    "main.78b2f303.js.map": "/aval-carpinteria/static/js/main.78b2f303.js.map",
     "453.223ee0d3.chunk.js.map": "/aval-carpinteria/static/js/453.223ee0d3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3ce514ca.css",
-    "static/js/main.16b72350.js"
+    "static/js/main.78b2f303.js"
   ]
 }
