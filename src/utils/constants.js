@@ -1,6 +1,5 @@
 const SERVER_IP =
-  process.env.REACT_APP_API_URL ||
-  "https://aval-backend-production.up.railway.app";
+  process.env.REACT_APP_API_URL || "https://aval-backend.onrender.com";
 
 export const ENV = {
   BASE_PATH: process.env.BASE_PATH || `${SERVER_IP}`,
